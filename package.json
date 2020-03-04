@@ -1,0 +1,14 @@
+{
+    "name": "uhs-design-guidelines",
+    "description": "Visual design guidlines, standards and component documentation | UHS Digital Team",
+    "scripts": {
+        "docz:dev": "docz dev",
+        "docz:build": "docz build",
+        "docz:serve": "docz build && docz serve"
+    },
+    "dependencies": {
+        "docz": "latest",
+        "react": "^16.8.6",
+        "react-dom": "^16.8.6"
+    }
+}
