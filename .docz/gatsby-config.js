@@ -1,12 +1,12 @@
-const { mergeWith } = require('lodash/fp')
-const fs = require('fs-extra')
+const { mergeWith }=require('lodash/fp')
+const fs=require('fs-extra')
 
-let custom = {}
-const hasGatsbyConfig = fs.existsSync('./gatsby-config.custom.js')
+let custom={}
+const hasGatsbyConfig=fs.existsSync('./gatsby-config.custom.js')
 
 if (hasGatsbyConfig) {
   try {
-    custom = require('./gatsby-config.custom')
+    custom=require('./gatsby-config.custom')
   } catch (err) {
     console.error(
       `Failed to load your gatsby-config.js file : `,
@@ -15,12 +15,13 @@ if (hasGatsbyConfig) {
   }
 }
 
-const config = {
+const config={
   pathPrefix: '/',
 
   siteMetadata: {
-    title: 'Uhs Design Guidelines',
-    description: 'My awesome app using docz',
+    title: 'UHS Design Guidelines',
+    description:
+      'Visual design guidlines, standards and component documentation | UHS Digital Team',
   },
   plugins: [
     {
@@ -56,8 +57,9 @@ const config = {
         eb: 'master',
         'edit-branch': 'master',
         config: '',
-        title: 'Uhs Design Guidelines',
-        description: 'My awesome app using docz',
+        title: 'UHS Design Guidelines',
+        description:
+          'Visual design guidlines, standards and component documentation | UHS Digital Team',
         host: 'localhost',
         port: 3000,
         p: 3000,
@@ -85,10 +87,10 @@ const config = {
   ],
 }
 
-const merge = mergeWith((objValue, srcValue) => {
+const merge=mergeWith((objValue, srcValue) => {
   if (Array.isArray(objValue)) {
     return objValue.concat(srcValue)
   }
 })
 
-module.exports = merge(config, custom)
+module.exports=merge(config, custom)

@@ -1,7 +1,7 @@
 {
   "config": {
-    "title": "Uhs Design Guidelines",
-    "description": "My awesome app using docz",
+    "title": "UHS Design Guidelines",
+    "description": "Visual design guidlines, standards and component documentation | UHS Digital Team",
     "menu": [],
     "repository": null,
     "native": false,
@@ -32,9 +32,19 @@
             "value": "How To:"
           },
           {
-            "slug": "initiate-this-docz-project",
+            "slug": "system-requirements",
             "depth": 3,
-            "value": "Initiate this Docz Project"
+            "value": "System Requirements"
+          },
+          {
+            "slug": "clone-this-project",
+            "depth": 3,
+            "value": "Clone this project"
+          },
+          {
+            "slug": "initiate",
+            "depth": 3,
+            "value": "Initiate"
           },
           {
             "slug": "build-and-run-a-local-development-version-of-this-website",
@@ -72,14 +82,19 @@
             "value": "and here"
           },
           {
+            "slug": "issues",
+            "depth": 2,
+            "value": "Issues"
+          },
+          {
             "slug": "built-with",
             "depth": 2,
             "value": "Built With:"
           },
           {
-            "slug": "docz--js",
+            "slug": "docz--gatsby-theme",
             "depth": 3,
-            "value": "Docz | JS"
+            "value": "Docz | Gatsby Theme"
           },
           {
             "slug": "github--repo",
