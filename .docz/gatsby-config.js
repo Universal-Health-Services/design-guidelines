@@ -1,12 +1,12 @@
-const { mergeWith }=require('lodash/fp')
-const fs=require('fs-extra')
+const { mergeWith } = require('lodash/fp')
+const fs = require('fs-extra')
 
-let custom={}
-const hasGatsbyConfig=fs.existsSync('./gatsby-config.custom.js')
+let custom = {}
+const hasGatsbyConfig = fs.existsSync('./gatsby-config.custom.js')
 
 if (hasGatsbyConfig) {
   try {
-    custom=require('./gatsby-config.custom')
+    custom = require('./gatsby-config.custom')
   } catch (err) {
     console.error(
       `Failed to load your gatsby-config.js file : `,
@@ -15,11 +15,11 @@ if (hasGatsbyConfig) {
   }
 }
 
-const config={
+const config = {
   pathPrefix: '/',
 
   siteMetadata: {
-    title: 'UHS Design Guidelines',
+    title: 'Uhs Design Guidelines',
     description:
       'Visual design guidlines, standards and component documentation | UHS Digital Team',
   },
@@ -31,7 +31,13 @@ const config={
         themesDir: 'src',
         mdxExtensions: ['.md', '.mdx'],
         docgenConfig: {},
-        menu: [],
+        menu: [
+          'Introduction',
+          'Getting Started',
+          'Components',
+          'Typography',
+          'About This Site',
+        ],
         mdPlugins: [],
         hastPlugins: [],
         ignore: [],
@@ -57,7 +63,7 @@ const config={
         eb: 'master',
         'edit-branch': 'master',
         config: '',
-        title: 'UHS Design Guidelines',
+        title: 'Uhs Design Guidelines',
         description:
           'Visual design guidlines, standards and component documentation | UHS Digital Team',
         host: 'localhost',
@@ -87,10 +93,10 @@ const config={
   ],
 }
 
-const merge=mergeWith((objValue, srcValue) => {
+const merge = mergeWith((objValue, srcValue) => {
   if (Array.isArray(objValue)) {
     return objValue.concat(srcValue)
   }
 })
 
-module.exports=merge(config, custom)
+module.exports = merge(config, custom)

@@ -1,8 +1,14 @@
 {
   "config": {
-    "title": "UHS Design Guidelines",
+    "title": "Uhs Design Guidelines",
     "description": "Visual design guidlines, standards and component documentation | UHS Digital Team",
-    "menu": [],
+    "menu": [
+      "Introduction",
+      "Getting Started",
+      "Components",
+      "Typography",
+      "About This Site"
+    ],
     "repository": null,
     "native": false,
     "themeConfig": {},
@@ -105,6 +111,136 @@
             "slug": "netlify--deployment",
             "depth": 3,
             "value": "Netlify | Deployment"
+          }
+        ]
+      }
+    },
+    {
+      "key": "src/introduction.mdx",
+      "value": {
+        "name": "Introduction",
+        "route": "/",
+        "id": "52db823779288c6d3862db6eaac738e5",
+        "filepath": "src/introduction.mdx",
+        "fullpath": "/Jobs/Code/uhs-design-guidelines/src/introduction.mdx",
+        "link": "",
+        "slug": "src-introduction",
+        "menu": "",
+        "headings": [
+          {
+            "slug": "welcome",
+            "depth": 1,
+            "value": "Welcome"
+          },
+          {
+            "slug": "so-what-next",
+            "depth": 2,
+            "value": "So what next?"
+          }
+        ]
+      }
+    },
+    {
+      "key": "src/components/Grid-System.mdx",
+      "value": {
+        "name": "Grid System",
+        "menu": "Components",
+        "route": "/components/grid-system",
+        "id": "92dd3918164c20eead7f937577c95cfc",
+        "filepath": "src/components/Grid-System.mdx",
+        "fullpath": "/Jobs/Code/uhs-design-guidelines/src/components/Grid-System.mdx",
+        "link": "",
+        "slug": "src-components-grid-system",
+        "headings": [
+          {
+            "slug": "grid-system",
+            "depth": 1,
+            "value": "Grid System"
+          },
+          {
+            "slug": "basic-usage",
+            "depth": 2,
+            "value": "Basic usage"
+          },
+          {
+            "slug": "html",
+            "depth": 3,
+            "value": "HTML"
+          },
+          {
+            "slug": "markdown",
+            "depth": 3,
+            "value": "MARKDOWN"
+          },
+          {
+            "slug": "properties",
+            "depth": 2,
+            "value": "Properties"
+          }
+        ]
+      }
+    },
+    {
+      "key": "src/getting-started/table-of-contents.mdx",
+      "value": {
+        "name": "Table of Contents",
+        "menu": "Getting Started",
+        "route": "/table-of-contents",
+        "id": "df2a0b75859aaa9a1e8bfc1abe91c808",
+        "filepath": "src/getting-started/table-of-contents.mdx",
+        "fullpath": "/Jobs/Code/uhs-design-guidelines/src/getting-started/table-of-contents.mdx",
+        "link": "",
+        "slug": "src-getting-started-table-of-contents",
+        "headings": [
+          {
+            "slug": "contents",
+            "depth": 1,
+            "value": "Contents"
+          }
+        ]
+      }
+    },
+    {
+      "key": "src/typography/Buttons.mdx",
+      "value": {
+        "name": "Buttons",
+        "menu": "Typography",
+        "route": "/typography/buttons",
+        "id": "42d9caad3d2c13cb76af99c1dcd0a410",
+        "filepath": "src/typography/Buttons.mdx",
+        "fullpath": "/Jobs/Code/uhs-design-guidelines/src/typography/Buttons.mdx",
+        "link": "",
+        "slug": "src-typography-buttons",
+        "headings": [
+          {
+            "slug": "buttons",
+            "depth": 1,
+            "value": "Buttons"
+          },
+          {
+            "slug": "basic-usage",
+            "depth": 2,
+            "value": "Basic usage"
+          },
+          {
+            "slug": "html",
+            "depth": 3,
+            "value": "HTML"
+          },
+          {
+            "slug": "markdown",
+            "depth": 3,
+            "value": "MARKDOWN"
+          },
+          {
+            "slug": "properties",
+            "depth": 2,
+            "value": "Properties"
+          },
+          {
+            "slug": "using-different-kinds",
+            "depth": 2,
+            "value": "Using different kinds"
           }
         ]
       }

@@ -6,6 +6,10 @@
         "docz:build": "docz build",
         "docz:serve": "docz build && docz serve"
     },
+    "files": [
+        "src/",
+        "doczrc.js"
+    ],
     "dependencies": {
         "docz": "latest",
         "react": "^16.8.6",

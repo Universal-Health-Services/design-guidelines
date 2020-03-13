@@ -6,6 +6,8 @@ Visual design guidlines, standards and component documentation | UHS Digital Tea
 
 [asset management](https://uhsinc.com)
 
+https://docs.google.com/document/d/1XEtrrITSylM1njAagacvDugCKxEgIH8QeD7YkiQ8jE4/edit#heading=h.it4xvnggg85z
+
 ## How To:
 
 ### System Requirements
