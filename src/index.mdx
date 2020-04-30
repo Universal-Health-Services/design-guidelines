@@ -5,8 +5,143 @@ route: /
 
 # Welcome
 
-blah blah
+Visual design guidlines, standards and component documentation | UHS Digital Team
 
-## So what next?
+[documentation](https://uhsinc.com)
 
-Hello, I'm a mdx file!
+[asset management](https://uhsinc.com)
+
+[working from](https://docs.google.com/document/d/1XEtrrITSylM1njAagacvDugCKxEgIH8QeD7YkiQ8jE4/edit#heading=h.it4xvnggg85z)
+
+## Contribute
+
+There are two ways you can contribute to this documentation website. 
+
+### Create an Issue Ticket
+If you are not wanting to get your hands dirty you can [create an _issue_ ticket](https://github.com/Universal-Health-Services/design-guidelines/issues/new) for another contributor to follow up, GitHub account required. 
+
+### Copy, Edit & Submit 
+If you wish to maintain a section or make changes to the entire site this project is availible as a [code repo](https://github.com/Universal-Health-Services/design-guidelines). To contribute to the repo you will need to create a local copy to edit. The following will walk you through the process of setting up your local machine and submitting push requests to the repo's administrator.
+
+**System Requirements**
+
+* Git [www](https://git-scm.com/)
+* GitHub Account [www](https://github.com/), [learning lab](https://lab.github.com/), [signup](https://github.com/join?source=header-home)
+* GitHub Desktop, *optional* but **suggested** [www](https://desktop.github.com/)
+* Node Package Manager, NPM [www](https://www.npmjs.com/), [install](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+* Yarn [www](https://yarnpkg.com/), [install](https://yarnpkg.com/getting-started/install)
+* An IDE or Code Editing Application
+* more
+* and more
+
+### 1. Clone this project
+
+This project is availible as a [code repo](https://github.com/Universal-Health-Services/design-guidelines). To contribute to the repo you will need to create a local copy to edit. Start by [cloning the repo](x-github-client://openRepo/https://github.com/Universal-Health-Services/design-guidelines "opens in GitHub Desktop"). If you do not have GitHub Desktop installed, try this [link](https://github.com/Universal-Health-Services/design-guidelines.git) or go directly to the [repo](https://github.com/Universal-Health-Services/design-guidelines).
+
+### 2. Initiate the local repo
+
+You will need the *Yarn* package manager installed on your computer.
+
+#### A. Install Yarn
+
+From the Command Line Interface (CLI), check if Yarn is installed. This is called `Terminal` in OS X, and can be found under /applications/utilities/terminal. Double click the application.
+
+>
+> `$ yarn -v`
+>
+
+If *Yarn* is installed, skip to **B**. 
+
+If it is not, install *Yarn* as a Global Installation
+
+>
+> `$ npm install -g yarn`
+>
+
+If this fails, you will likely need to add administrative permissions
+
+>
+> `$ sudo npm install -g yarn`
+>
+
+you will be prompted for your computer's administrative password
+
+#### B. Install Project Specific Node Packages
+
+If you have not yet cloned the project repo, please do. After you have cloned the project repo you will need to install all the nessicary node packages for your local copy to work. Start by navigating into the project directory using the CLI
+
+>
+> `$ cd /project-directory`
+>
+
+Install the Project's required node packages
+
+>
+> `$ yarn install`
+>
+
+This will download and install all the required node packages.
+
+### 3. Build & Run
+
+With all the required node packages installed you can build and run a local version of the website for development purposes. Start your local development enviornment using the CLI. First navigate into the project directory using the CLI
+
+> 
+> `$ cd /project-directory`
+> 
+
+Now you can build and run the development website
+
+> 
+> `$ npm run docz:dev`
+> 
+
+The local copy of the website will load in your default browser or alternativly you can navigate to [local website](http://localhost:3000/). When you make major edits or possibaly something just does seam to be working; it is best to rebuild the entire project. In the CLI type
+
+>
+> `$ npm run docz:build`
+>
+
+Now that the project is rebuilt you can preview your local development website
+
+> 
+> `$ npm run docz:dev`
+> 
+
+### 4. Edit Local
+
+With your local development enviornment running, changes to your local copy of the repo will be visible after the edited file has been saved, [local website](http://localhost:3000/)
+ 
+### 5. _Push_ your changes
+
+Now that you have edited the files and tested your changes, those changes will need to be pushed to the Master branch of the project repo. The live website is build from this master branch.
+
+#### Make a _Pull Request_
+
+#### Approved and Merged
+
+### More here
+
+#### and here
+
+## Issues
+
+Issues are used to track: todos, bugs, feature requests, and more. As issues are created, they’ll appear in the [_issues_ dashboard](https://github.com/Universal-Health-Services/design-guidelines/issues) as a searchable and filterable list. If you have found an issue with this website or the content within [create an _issue_ ticket](https://github.com/Universal-Health-Services/design-guidelines/issues/new). To submit a ticket you will need to be a registered user on [GitHub](https://github.com/).
+
+## Built With
+
+### Docz | Gatsby Theme
+
+[www](https://www.docz.site/)
+
+[docs](https://www.docz.site/docs/getting-started)
+
+### GitHub | Repo
+
+[repo](https://github.com/Universal-Health-Services/design-guidelines)
+
+### Netlify | Deployment
+
+[www](https://www.netlify.com/)
+
+[docs](https://docs.netlify.com/)
