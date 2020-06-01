@@ -45,7 +45,7 @@ const config = {
         o: false,
         open: false,
         'open-browser': false,
-        root: '/Users/nugzali/Code/design-guidelines/.docz',
+        root: '/Users/tripleg/Documents/GitHub/design-guidelines/.docz',
         base: '/',
         source: './',
         src: './',
@@ -65,26 +65,33 @@ const config = {
         p: 3000,
         separator: '-',
         paths: {
-          root: '/Users/nugzali/Code/design-guidelines',
+          root: '/Users/tripleg/Documents/GitHub/design-guidelines',
           templates:
-            '/Users/nugzali/Code/design-guidelines/node_modules/docz-core/dist/templates',
-          docz: '/Users/nugzali/Code/design-guidelines/.docz',
-          cache: '/Users/nugzali/Code/design-guidelines/.docz/.cache',
-          app: '/Users/nugzali/Code/design-guidelines/.docz/app',
-          appPackageJson: '/Users/nugzali/Code/design-guidelines/package.json',
+            '/Users/tripleg/Documents/GitHub/design-guidelines/node_modules/docz-core/dist/templates',
+          docz: '/Users/tripleg/Documents/GitHub/design-guidelines/.docz',
+          cache:
+            '/Users/tripleg/Documents/GitHub/design-guidelines/.docz/.cache',
+          app: '/Users/tripleg/Documents/GitHub/design-guidelines/.docz/app',
+          appPackageJson:
+            '/Users/tripleg/Documents/GitHub/design-guidelines/package.json',
           gatsbyConfig:
-            '/Users/nugzali/Code/design-guidelines/gatsby-config.js',
+            '/Users/tripleg/Documents/GitHub/design-guidelines/gatsby-config.js',
           gatsbyBrowser:
-            '/Users/nugzali/Code/design-guidelines/gatsby-browser.js',
-          gatsbyNode: '/Users/nugzali/Code/design-guidelines/gatsby-node.js',
-          gatsbySSR: '/Users/nugzali/Code/design-guidelines/gatsby-ssr.js',
+            '/Users/tripleg/Documents/GitHub/design-guidelines/gatsby-browser.js',
+          gatsbyNode:
+            '/Users/tripleg/Documents/GitHub/design-guidelines/gatsby-node.js',
+          gatsbySSR:
+            '/Users/tripleg/Documents/GitHub/design-guidelines/gatsby-ssr.js',
           importsJs:
-            '/Users/nugzali/Code/design-guidelines/.docz/app/imports.js',
-          rootJs: '/Users/nugzali/Code/design-guidelines/.docz/app/root.jsx',
-          indexJs: '/Users/nugzali/Code/design-guidelines/.docz/app/index.jsx',
+            '/Users/tripleg/Documents/GitHub/design-guidelines/.docz/app/imports.js',
+          rootJs:
+            '/Users/tripleg/Documents/GitHub/design-guidelines/.docz/app/root.jsx',
+          indexJs:
+            '/Users/tripleg/Documents/GitHub/design-guidelines/.docz/app/index.jsx',
           indexHtml:
-            '/Users/nugzali/Code/design-guidelines/.docz/app/index.html',
-          db: '/Users/nugzali/Code/design-guidelines/.docz/app/db.json',
+            '/Users/tripleg/Documents/GitHub/design-guidelines/.docz/app/index.html',
+          db:
+            '/Users/tripleg/Documents/GitHub/design-guidelines/.docz/app/db.json',
         },
       },
     },
