@@ -387,24 +387,29 @@
             "value": "Grid System"
           },
           {
-            "slug": "basic-usage",
+            "slug": "xl--large-monitor",
             "depth": 2,
-            "value": "Basic usage"
+            "value": "XL – Large Monitor"
           },
           {
-            "slug": "html",
-            "depth": 3,
-            "value": "HTML"
-          },
-          {
-            "slug": "markdown",
-            "depth": 3,
-            "value": "MARKDOWN"
-          },
-          {
-            "slug": "properties",
+            "slug": "large--average-desktop-monitor",
             "depth": 2,
-            "value": "Properties"
+            "value": "Large – Average Desktop Monitor"
+          },
+          {
+            "slug": "medium--laptop",
+            "depth": 2,
+            "value": "Medium – Laptop"
+          },
+          {
+            "slug": "small---tablet",
+            "depth": 2,
+            "value": "Small - Tablet"
+          },
+          {
+            "slug": "xs--small-mobile",
+            "depth": 2,
+            "value": "(XS) – Small Mobile"
           }
         ]
       }
