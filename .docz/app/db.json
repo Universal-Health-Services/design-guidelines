@@ -16,7 +16,7 @@
         "route": "/",
         "id": "6576455a124f9aaefd860597f03a8fe4",
         "filepath": "src/index.mdx",
-        "fullpath": "/Users/nugzali/Code/design-guidelines/src/index.mdx",
+        "fullpath": "/Users/tripleg/Documents/GitHub/design-guidelines/src/index.mdx",
         "link": "",
         "slug": "src-index",
         "menu": "",
@@ -32,9 +32,14 @@
             "value": "Contribute"
           },
           {
-            "slug": "system-requirements",
+            "slug": "create-an-issue-ticket",
             "depth": 3,
-            "value": "System Requirements"
+            "value": "Create an Issue Ticket"
+          },
+          {
+            "slug": "copy-edit--submit",
+            "depth": 3,
+            "value": "Copy, Edit & Submit"
           },
           {
             "slug": "1-clone-this-project",
@@ -127,7 +132,7 @@
         "route": "/guidelines/animations",
         "id": "9408d0f437fd51cd7ef484f91248ab5c",
         "filepath": "src/guidelines/animations.mdx",
-        "fullpath": "/Users/nugzali/Code/design-guidelines/src/guidelines/animations.mdx",
+        "fullpath": "/Users/tripleg/Documents/GitHub/design-guidelines/src/guidelines/animations.mdx",
         "link": "",
         "slug": "src-guidelines-animations",
         "headings": [
@@ -167,7 +172,7 @@
         "route": "/guidelines/buttons",
         "id": "f839bffb35d01331824bec30afc4a306",
         "filepath": "src/guidelines/buttons.mdx",
-        "fullpath": "/Users/nugzali/Code/design-guidelines/src/guidelines/buttons.mdx",
+        "fullpath": "/Users/tripleg/Documents/GitHub/design-guidelines/src/guidelines/buttons.mdx",
         "link": "",
         "slug": "src-guidelines-buttons",
         "headings": [
@@ -232,7 +237,7 @@
         "route": "/guidelines/color-palette",
         "id": "78a700ada809629ce6d529e7bdc6d16b",
         "filepath": "src/guidelines/color-palette.mdx",
-        "fullpath": "/Users/nugzali/Code/design-guidelines/src/guidelines/color-palette.mdx",
+        "fullpath": "/Users/tripleg/Documents/GitHub/design-guidelines/src/guidelines/color-palette.mdx",
         "link": "",
         "slug": "src-guidelines-color-palette",
         "headings": [
@@ -272,7 +277,7 @@
         "route": "/guidelines/forms",
         "id": "efaf264e170cf135f293822969e80da4",
         "filepath": "src/guidelines/forms.mdx",
-        "fullpath": "/Users/nugzali/Code/design-guidelines/src/guidelines/forms.mdx",
+        "fullpath": "/Users/tripleg/Documents/GitHub/design-guidelines/src/guidelines/forms.mdx",
         "link": "",
         "slug": "src-guidelines-forms",
         "headings": [
@@ -372,7 +377,7 @@
         "route": "/guidelines/grid-system",
         "id": "20a8112404fa49ca6677bf7549ff04a1",
         "filepath": "src/guidelines/grid-system.mdx",
-        "fullpath": "/Users/nugzali/Code/design-guidelines/src/guidelines/grid-system.mdx",
+        "fullpath": "/Users/tripleg/Documents/GitHub/design-guidelines/src/guidelines/grid-system.mdx",
         "link": "",
         "slug": "src-guidelines-grid-system",
         "headings": [
@@ -412,7 +417,7 @@
         "route": "/guidelines/icons-images",
         "id": "edfe6ebba7745f54a90b7240264d308e",
         "filepath": "src/guidelines/icons-Images.mdx",
-        "fullpath": "/Users/nugzali/Code/design-guidelines/src/guidelines/icons-Images.mdx",
+        "fullpath": "/Users/tripleg/Documents/GitHub/design-guidelines/src/guidelines/icons-Images.mdx",
         "link": "",
         "slug": "src-guidelines-icons-images",
         "headings": [
@@ -537,7 +542,7 @@
         "route": "/guidelines/information-architecture",
         "id": "b22d5a4c2579294377210e79a175ce75",
         "filepath": "src/guidelines/information-architecture.mdx",
-        "fullpath": "/Users/nugzali/Code/design-guidelines/src/guidelines/information-architecture.mdx",
+        "fullpath": "/Users/tripleg/Documents/GitHub/design-guidelines/src/guidelines/information-architecture.mdx",
         "link": "",
         "slug": "src-guidelines-information-architecture",
         "headings": [
@@ -562,7 +567,7 @@
         "route": "/guidelines/links",
         "id": "d74e6698d415d5a76fa6745c800c5a53",
         "filepath": "src/guidelines/links.mdx",
-        "fullpath": "/Users/nugzali/Code/design-guidelines/src/guidelines/links.mdx",
+        "fullpath": "/Users/tripleg/Documents/GitHub/design-guidelines/src/guidelines/links.mdx",
         "link": "",
         "slug": "src-guidelines-links",
         "headings": [
@@ -637,7 +642,7 @@
         "route": "/guidelines/micro-interactions",
         "id": "1c317e2f5197e8c5d5dd0047f71fdc32",
         "filepath": "src/guidelines/micro-interactions.mdx",
-        "fullpath": "/Users/nugzali/Code/design-guidelines/src/guidelines/micro-interactions.mdx",
+        "fullpath": "/Users/tripleg/Documents/GitHub/design-guidelines/src/guidelines/micro-interactions.mdx",
         "link": "",
         "slug": "src-guidelines-micro-interactions",
         "headings": [
@@ -677,7 +682,7 @@
         "route": "/guidelines/navigation",
         "id": "8977c9f404b5657fb88afab448775a84",
         "filepath": "src/guidelines/navigation.mdx",
-        "fullpath": "/Users/nugzali/Code/design-guidelines/src/guidelines/navigation.mdx",
+        "fullpath": "/Users/tripleg/Documents/GitHub/design-guidelines/src/guidelines/navigation.mdx",
         "link": "",
         "slug": "src-guidelines-navigation",
         "headings": [
@@ -692,9 +697,9 @@
             "value": "Main Navigation"
           },
           {
-            "slug": "requirements",
+            "slug": "general-recommendations",
             "depth": 3,
-            "value": "Requirements"
+            "value": "General Recommendations"
           },
           {
             "slug": "things-to-avoid",
@@ -707,9 +712,9 @@
             "value": "Utility Navigation"
           },
           {
-            "slug": "requirements-1",
+            "slug": "recommendations",
             "depth": 3,
-            "value": "Requirements"
+            "value": "Recommendations"
           },
           {
             "slug": "things-to-avoid-1",
@@ -722,19 +727,24 @@
             "value": "Footer Navigation"
           },
           {
-            "slug": "requirements-2",
-            "depth": 3,
-            "value": "Requirements"
-          },
-          {
-            "slug": "footer-disclaimer-text",
-            "depth": 3,
-            "value": "Footer Disclaimer Text"
-          },
-          {
             "slug": "footer-disclaimer-navigation-items",
             "depth": 3,
             "value": "Footer Disclaimer Navigation Items"
+          },
+          {
+            "slug": "include-these-items-in-footer",
+            "depth": 3,
+            "value": "Include these items in Footer"
+          },
+          {
+            "slug": "acute-sites",
+            "depth": 3,
+            "value": "Acute Sites"
+          },
+          {
+            "slug": "acute-sites-footer-disclaimer-text",
+            "depth": 4,
+            "value": "Acute Sites Footer Disclaimer Text"
           },
           {
             "slug": "sidebar-navigation",
@@ -742,7 +752,7 @@
             "value": "Sidebar Navigation"
           },
           {
-            "slug": "requirements-3",
+            "slug": "requirements",
             "depth": 3,
             "value": "Requirements"
           },
@@ -752,19 +762,19 @@
             "value": "Mobile Navigation"
           },
           {
-            "slug": "requirements-4",
+            "slug": "requirements-1",
             "depth": 3,
             "value": "Requirements"
           },
           {
-            "slug": "recommendations",
+            "slug": "recommendations-1",
             "depth": 3,
             "value": "Recommendations"
           },
           {
-            "slug": "use-of-accordions-in-sidebarmobile-navigation-specific-to-acute-sites",
+            "slug": "use-of-accordions-in-mobile-navigation",
             "depth": 2,
-            "value": "Use of Accordions in Sidebar/Mobile Navigation (*specific to Acute sites)"
+            "value": "Use of Accordions in Mobile Navigation"
           },
           {
             "slug": "cta-blocks",
@@ -772,7 +782,7 @@
             "value": "CTA blocks"
           },
           {
-            "slug": "requirements-5",
+            "slug": "requirements-2",
             "depth": 3,
             "value": "Requirements"
           },
@@ -782,7 +792,7 @@
             "value": "Search bar"
           },
           {
-            "slug": "recommendations-1",
+            "slug": "recommendations-2",
             "depth": 3,
             "value": "Recommendations"
           }
@@ -797,7 +807,7 @@
         "route": "/guidelines/seo-content",
         "id": "b330927f5f3a99cd735ccfd7e39ba225",
         "filepath": "src/guidelines/seo-content.mdx",
-        "fullpath": "/Users/nugzali/Code/design-guidelines/src/guidelines/seo-content.mdx",
+        "fullpath": "/Users/tripleg/Documents/GitHub/design-guidelines/src/guidelines/seo-content.mdx",
         "link": "",
         "slug": "src-guidelines-seo-content",
         "headings": [
@@ -847,7 +857,7 @@
         "route": "/guidelines/text-elements",
         "id": "fe5c26f4e45991bf89f48d623ac218fd",
         "filepath": "src/guidelines/text-elements.mdx",
-        "fullpath": "/Users/nugzali/Code/design-guidelines/src/guidelines/text-elements.mdx",
+        "fullpath": "/Users/tripleg/Documents/GitHub/design-guidelines/src/guidelines/text-elements.mdx",
         "link": "",
         "slug": "src-guidelines-text-elements",
         "headings": [
