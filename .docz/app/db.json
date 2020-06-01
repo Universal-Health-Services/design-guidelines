@@ -387,14 +387,14 @@
             "value": "Grid System"
           },
           {
-            "slug": "xl--large-monitor",
+            "slug": "xl--largejumbo-screen",
             "depth": 2,
-            "value": "XL – Large Monitor"
+            "value": "XL – Large/Jumbo Screen"
           },
           {
-            "slug": "large--average-desktop-monitor",
+            "slug": "large--average-desktop-screen",
             "depth": 2,
-            "value": "Large – Average Desktop Monitor"
+            "value": "Large – Average Desktop Screen"
           },
           {
             "slug": "medium--laptop",
@@ -402,14 +402,14 @@
             "value": "Medium – Laptop"
           },
           {
-            "slug": "small---tablet",
+            "slug": "small---tabletlarge-phone",
             "depth": 2,
-            "value": "Small - Tablet"
+            "value": "Small - Tablet/Large Phone"
           },
           {
             "slug": "xs--small-mobile",
             "depth": 2,
-            "value": "(XS) – Small Mobile"
+            "value": "XS – Small Mobile"
           }
         ]
       }
@@ -945,6 +945,81 @@
             "slug": "useful-links",
             "depth": 2,
             "value": "Useful Links"
+          }
+        ]
+      }
+    },
+    {
+      "key": "src/guidelines/typography.mdx",
+      "value": {
+        "name": "Typography",
+        "menu": "Guidelines",
+        "route": "/guidelines/typography",
+        "id": "06dbb1f66a1a506abf736e5e018de818",
+        "filepath": "src/guidelines/typography.mdx",
+        "fullpath": "/Users/tripleg/Documents/GitHub/design-guidelines/src/guidelines/typography.mdx",
+        "link": "",
+        "slug": "src-guidelines-typography",
+        "headings": [
+          {
+            "slug": "typography",
+            "depth": 1,
+            "value": "Typography"
+          },
+          {
+            "slug": "universal-requirements",
+            "depth": 2,
+            "value": "Universal Requirements"
+          },
+          {
+            "slug": "recommendations",
+            "depth": 2,
+            "value": "Recommendations"
+          },
+          {
+            "slug": "units",
+            "depth": 2,
+            "value": "Units"
+          },
+          {
+            "slug": "useful-resources",
+            "depth": 3,
+            "value": "Useful Resources"
+          },
+          {
+            "slug": "size",
+            "depth": 2,
+            "value": "Size"
+          },
+          {
+            "slug": "color",
+            "depth": 2,
+            "value": "Color"
+          },
+          {
+            "slug": "useful-links",
+            "depth": 3,
+            "value": "Useful Links"
+          },
+          {
+            "slug": "headers",
+            "depth": 2,
+            "value": "Headers"
+          },
+          {
+            "slug": "mobile",
+            "depth": 2,
+            "value": "Mobile"
+          },
+          {
+            "slug": "typeface-selection",
+            "depth": 2,
+            "value": "Typeface Selection"
+          },
+          {
+            "slug": "useful-resources-1",
+            "depth": 3,
+            "value": "Useful Resources"
           }
         ]
       }
