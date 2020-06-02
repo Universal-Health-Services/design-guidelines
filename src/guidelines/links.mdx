@@ -5,29 +5,64 @@ route: /guidelines/links
 ---
 
 # Links
-
-## Basic usage
-
-### HTML
-
-`here`
-
-### MARKDOWN 
-
-`here`
+When using links within a body of text, we strive to provide clarity to the user about the content of the link, it’s location, and status. The general text usability guidelines from above also apply.
 
 ## Requirements
+<ul>
+<li>Labels written in Sentence case</li>
+<li>Link should describe the content of the link, not use generic label such as “click here”</li>
+<li>Avoid using icons in links</li>
+<li>Avoid using full url as a label for a link</li>
+<li>Specify global hover state for links</li>
+<li>Avoid using external links in main navigation</li>
+</ul>
 
 ## Recommendations
+<ul>
+<li>If possible, the actual name of the linked item should be the link itself</li>
+<li>Make labels as brief as possible, the label should not be a full sentence</li>
+<li>The label “Read more” can be used where a description of the linked content is provided nearby</li>
+<li>If an icon is used, a non-breaking space (&nbsp;) should also be used between the label text and icon</li>
+<li>Add an aria-label tag to further clarify the content of a link for users with assistive technology</li>
+</ul>
 
 ## Links with Icons
 
+Icons should be used sparingly with linked text. Acceptable uses of icons include an indicator for a “Contact Us” link to email or a contact form, or a pdf icon to indicate a linked document to download. If an icon is used, a non-breaking space (&nbsp;) should also be used between the label text and icon, so that the link wraps as one entity within text in responsive views. Any use of an icon should be accompanied by a text label within the html tag for accessibility.
+
+### Examples
+
+Links with line break in them<br />
+Links that look like internal links but are actually external<br />
+Link to email with icon<br />
+Text label within html tag for icon
+
 ## External Links
+Links that take a user to another site should indicate this whenever possible, with an icon or with descriptive text. When the link goes to another website, it is ok to use a shortened url as the label, not the full url (as in [http://www.cerner.com/](http://www.cerner.com/)).
+
+### Examples
+Contact Us<br />
+PDF<br />
+Cerner.com
 
 ## Main Navigation and Header Links
+Using external links within main navigation elements should be avoided as much as possible.
+If an external link is used within header elements, include a button or link to the same destination later in the text on the page so that users can clearly tell that there is a separate destination being indicated.
+
 
 ## Indicator States
+Links should have a specified global hover state. It’s up to the designer what the state should be (underline, change in color). An additional state for visited links should also be defined whenever possible. Sometimes color modifications aren’t enough of a change to indicate where a link is present, which is why underlines can be useful.
 
 ## Making Links Accessible
 
-## Useful links
+There are situations when the link label isn’t as descriptive as possible, or using an icon with a link makes the most sense but then needs extra configuration to make it fully accessible. There are several options to make links (and other html elements) more accessible. For most elements, the attribute “aria-label” and “title” can be added to provide additional detail that is read by screen readers. The “title” attribute will also display a tooltip label on mouse hover. Another option that is slightly less desirable, is to add text with the class “sr-only”, which is invisible to regular users, but will be read by screen readers.
+
+## Useful Links
+
+[Text Link Practices for Screen Readers](https://www.deque.com/blog/text-links-practices-screen-readers/)
+
+[Font Awesome - Accessibility](https://fontawesome.com/v4.7.0/accessibility/)
+
+[HTML Aria Attribute](https://www.geeksforgeeks.org/html-aria-label-attribute/)
+
+[NNGroup: Guidelines for Visualizing Links](https://www.nngroup.com/articles/guidelines-for-visualizing-links/)

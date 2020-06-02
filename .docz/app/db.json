@@ -567,21 +567,6 @@
             "value": "Links"
           },
           {
-            "slug": "basic-usage",
-            "depth": 2,
-            "value": "Basic usage"
-          },
-          {
-            "slug": "html",
-            "depth": 3,
-            "value": "HTML"
-          },
-          {
-            "slug": "markdown",
-            "depth": 3,
-            "value": "MARKDOWN"
-          },
-          {
             "slug": "requirements",
             "depth": 2,
             "value": "Requirements"
@@ -597,9 +582,19 @@
             "value": "Links with Icons"
           },
           {
+            "slug": "examples",
+            "depth": 3,
+            "value": "Examples"
+          },
+          {
             "slug": "external-links",
             "depth": 2,
             "value": "External Links"
+          },
+          {
+            "slug": "examples-1",
+            "depth": 3,
+            "value": "Examples"
           },
           {
             "slug": "main-navigation-and-header-links",
@@ -619,7 +614,7 @@
           {
             "slug": "useful-links",
             "depth": 2,
-            "value": "Useful links"
+            "value": "Useful Links"
           }
         ]
       }
