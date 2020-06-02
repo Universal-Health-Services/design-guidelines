@@ -272,21 +272,6 @@
             "value": "Forms"
           },
           {
-            "slug": "basic-usage",
-            "depth": 2,
-            "value": "Basic usage"
-          },
-          {
-            "slug": "html",
-            "depth": 3,
-            "value": "HTML"
-          },
-          {
-            "slug": "markdown",
-            "depth": 3,
-            "value": "MARKDOWN"
-          },
-          {
             "slug": "requirements",
             "depth": 2,
             "value": "Requirements"
@@ -297,59 +282,79 @@
             "value": "Recommendations"
           },
           {
-            "slug": "other-layoutstyling-guidelines",
+            "slug": "examples",
+            "depth": 4,
+            "value": "Examples"
+          },
+          {
+            "slug": "acute-care-sites",
+            "depth": 3,
+            "value": "Acute Care Sites"
+          },
+          {
+            "slug": "other-styling-guidelines",
             "depth": 2,
-            "value": "Other Layout/Styling Guidelines"
+            "value": "Other Styling Guidelines"
           },
           {
             "slug": "additional-htmlcss-specs",
-            "depth": 2,
+            "depth": 3,
             "value": "Additional HTML/CSS Specs"
           },
           {
+            "slug": "examples-1",
+            "depth": 4,
+            "value": "Examples"
+          },
+          {
             "slug": "placeholder-text",
-            "depth": 2,
+            "depth": 3,
             "value": "Placeholder Text"
           },
           {
             "slug": "field-masking",
-            "depth": 2,
+            "depth": 3,
             "value": "Field masking"
           },
           {
             "slug": "form-validation-and-error-messages",
-            "depth": 2,
+            "depth": 3,
             "value": "Form Validation and Error messages"
           },
           {
             "slug": "testing-for-accessibility",
-            "depth": 2,
+            "depth": 3,
             "value": "Testing for Accessibility"
           },
           {
             "slug": "multi-step-forms",
-            "depth": 2,
+            "depth": 3,
             "value": "Multi-Step Forms"
           },
           {
             "slug": "confirmation-messages",
-            "depth": 2,
+            "depth": 3,
             "value": "Confirmation Messages"
           },
           {
             "slug": "registration-forms",
-            "depth": 2,
+            "depth": 3,
             "value": "Registration Forms"
           },
           {
             "slug": "mobile",
-            "depth": 2,
+            "depth": 3,
             "value": "Mobile"
           },
           {
             "slug": "useful-resources",
-            "depth": 2,
+            "depth": 3,
             "value": "Useful Resources"
+          },
+          {
+            "slug": "sample-form",
+            "depth": 2,
+            "value": "Sample Form"
           }
         ]
       }
