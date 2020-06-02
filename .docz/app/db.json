@@ -182,34 +182,9 @@
             "value": "Buttons"
           },
           {
-            "slug": "basic-usage",
+            "slug": "requirements-universal",
             "depth": 2,
-            "value": "Basic usage"
-          },
-          {
-            "slug": "html",
-            "depth": 3,
-            "value": "HTML"
-          },
-          {
-            "slug": "markdown",
-            "depth": 3,
-            "value": "MARKDOWN"
-          },
-          {
-            "slug": "properties",
-            "depth": 2,
-            "value": "Properties"
-          },
-          {
-            "slug": "using-different-kinds",
-            "depth": 2,
-            "value": "Using different kinds"
-          },
-          {
-            "slug": "requirements",
-            "depth": 2,
-            "value": "Requirements"
+            "value": "Requirements (Universal?)"
           },
           {
             "slug": "recommendations",
@@ -222,9 +197,19 @@
             "value": "Things to Avoid"
           },
           {
-            "slug": "use-of-buttons-vs-use-of-text-links",
+            "slug": "use-of-buttons-vs-text-links",
             "depth": 2,
-            "value": "Use of Buttons vs. Use of Text Links"
+            "value": "Use of Buttons vs. Text Links"
+          },
+          {
+            "slug": "html",
+            "depth": 3,
+            "value": "HTML"
+          },
+          {
+            "slug": "markdown",
+            "depth": 3,
+            "value": "MARKDOWN"
           }
         ]
       }
@@ -1017,9 +1002,14 @@
             "value": "Typeface Selection"
           },
           {
-            "slug": "useful-resources-1",
+            "slug": "acute-sites",
             "depth": 3,
-            "value": "Useful Resources"
+            "value": "Acute Sites"
+          },
+          {
+            "slug": "useful-links-1",
+            "depth": 3,
+            "value": "Useful Links"
           }
         ]
       }
