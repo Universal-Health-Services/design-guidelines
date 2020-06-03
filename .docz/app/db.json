@@ -140,26 +140,6 @@
             "slug": "animations",
             "depth": 1,
             "value": "Animations"
-          },
-          {
-            "slug": "basic-usage",
-            "depth": 2,
-            "value": "Basic usage"
-          },
-          {
-            "slug": "html",
-            "depth": 3,
-            "value": "HTML"
-          },
-          {
-            "slug": "markdown",
-            "depth": 3,
-            "value": "MARKDOWN"
-          },
-          {
-            "slug": "requirements",
-            "depth": 2,
-            "value": "Requirements"
           }
         ]
       }
@@ -427,49 +407,19 @@
             "value": "Icons"
           },
           {
-            "slug": "basic-usage",
-            "depth": 3,
-            "value": "Basic usage"
-          },
-          {
-            "slug": "html",
-            "depth": 4,
-            "value": "HTML"
-          },
-          {
-            "slug": "markdown",
-            "depth": 4,
-            "value": "MARKDOWN"
-          },
-          {
             "slug": "requirements",
             "depth": 3,
             "value": "Requirements"
           },
           {
+            "slug": "useful-links",
+            "depth": 3,
+            "value": "Useful Links"
+          },
+          {
             "slug": "images",
             "depth": 2,
             "value": "Images"
-          },
-          {
-            "slug": "basic-usage-1",
-            "depth": 3,
-            "value": "Basic usage"
-          },
-          {
-            "slug": "html-1",
-            "depth": 4,
-            "value": "HTML"
-          },
-          {
-            "slug": "markdown-1",
-            "depth": 4,
-            "value": "MARKDOWN"
-          },
-          {
-            "slug": "requirements-1",
-            "depth": 3,
-            "value": "Requirements"
           },
           {
             "slug": "selection-of-stock-images",
@@ -518,7 +468,7 @@
           },
           {
             "slug": "recommendations",
-            "depth": 3,
+            "depth": 4,
             "value": "Recommendations"
           },
           {
@@ -642,24 +592,9 @@
             "value": "Micro Interactions"
           },
           {
-            "slug": "basic-usage",
-            "depth": 2,
-            "value": "Basic usage"
-          },
-          {
-            "slug": "html",
+            "slug": "useful-links",
             "depth": 3,
-            "value": "HTML"
-          },
-          {
-            "slug": "markdown",
-            "depth": 3,
-            "value": "MARKDOWN"
-          },
-          {
-            "slug": "requirements",
-            "depth": 2,
-            "value": "Requirements"
+            "value": "Useful Links"
           }
         ]
       }
