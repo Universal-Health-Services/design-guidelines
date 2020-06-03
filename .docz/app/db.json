@@ -857,21 +857,6 @@
             "value": "Text Elements"
           },
           {
-            "slug": "basic-usage",
-            "depth": 2,
-            "value": "Basic usage"
-          },
-          {
-            "slug": "html",
-            "depth": 3,
-            "value": "HTML"
-          },
-          {
-            "slug": "markdown",
-            "depth": 3,
-            "value": "MARKDOWN"
-          },
-          {
             "slug": "call-out-boxes",
             "depth": 2,
             "value": "Call-Out Boxes"
@@ -880,6 +865,11 @@
             "slug": "default-style",
             "depth": 2,
             "value": "Default Style"
+          },
+          {
+            "slug": "example",
+            "depth": 3,
+            "value": "Example"
           },
           {
             "slug": "use-of-bold",
@@ -892,14 +882,24 @@
             "value": "Columns"
           },
           {
+            "slug": "example-1",
+            "depth": 3,
+            "value": "Example"
+          },
+          {
             "slug": "tables",
             "depth": 2,
             "value": "Tables"
           },
           {
             "slug": "recommendations",
-            "depth": 2,
+            "depth": 3,
             "value": "Recommendations"
+          },
+          {
+            "slug": "example-2",
+            "depth": 3,
+            "value": "Example"
           },
           {
             "slug": "bullets",
@@ -907,9 +907,19 @@
             "value": "Bullets"
           },
           {
+            "slug": "example-3",
+            "depth": 3,
+            "value": "Example"
+          },
+          {
             "slug": "phone-numbers",
             "depth": 2,
             "value": "Phone Numbers"
+          },
+          {
+            "slug": "example-4",
+            "depth": 3,
+            "value": "Example"
           },
           {
             "slug": "addresses",
@@ -930,6 +940,16 @@
             "slug": "useful-links",
             "depth": 2,
             "value": "Useful Links"
+          },
+          {
+            "slug": "html",
+            "depth": 3,
+            "value": "HTML"
+          },
+          {
+            "slug": "markdown",
+            "depth": 3,
+            "value": "MARKDOWN"
           }
         ]
       }
