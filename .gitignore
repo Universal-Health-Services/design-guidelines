@@ -105,5 +105,4 @@ public/
 yarn.lock
 package-lock.json
 
-# local development files
 .docz/*
