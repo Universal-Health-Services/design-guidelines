@@ -6,48 +6,75 @@ route: /guidelines/grid-system
 
 # Grid System
 
-Supporting mobile first design standards and following [media breakpoint](/components/media-breakpoints "Design Standards, Media Breakpoints") rules.
-
 (Still being determined)
 
-## XL – Large Monitor
-<ol>
-<li>Max Width: 1440px</li>
-<li>Grid: 12 columns</li>
-<li>Gutters: tbd</li>
-</ol>
+Supporting mobile first design standards and responsive layouts following [media breakpoints](/guidelines/media-breakpoints "Design Standards, Media Breakpoints").
+
+## Grid Container Classes:
+
+Class naming convertions are `grid-` + `container-` + `container orientation`. There are two possible orientations, **Columns** or **Rows**.
+
+`grid-container-col` contain elements that stack in a **vertical column**.
+
+`grid-container-row` contain elements that are lined-up in a **horizontal row**.
+
+A html `<div>` with a class of `grid-container-row` and `grid-container_fixed-width` will give you a container that is centered with in the browser window as defined
+by media [media breakpoint gutter](/guidelines/media-breakpoints#gutter "Design Standards, Media Breakpoint Gutters") values.
+
+### Basic usage
+
+#### HTML
+
+```
+<div class="main">
+  <div class="grid-container-row grid-container_fixed-width">
+   <div class="grid-1-3">column 1 of 3</div>
+   <div class="grid-1-3">column 2 of 3</div>
+   <div class="grid-1-3">column 3 of 3</div>
+  </div>
+</div>
+```
+
+#### MARKDOWN 
+
+`here`
+
+## Inner Grid Classes
+
+Responsive grid widths need to be nested within a container class to work properly. Specifically a `grid-container-row` since the following
+grid classes define horizonal widths as percetages of a total. As the total width of the grid container shrinks, inner grid columns begin to stake.
+A 12 column grid will shift to a 8 column grid, halving from there down to 2 total columns. This responsive process is defined by
+[media breakpoints](/guidelines/media-breakpoints "Design Standards, Media Breakpoints").
+
+Class naming convertions are `grid-` + `unit-` + `of total units`.
+
+The following Grid Column Widths are supported:
+
+| Grid       | Unit | Total | Class       |
+| -----------| ---- | ----- | ----------- |
+| 12 columns |   1  |   12  | `grid-1-12` |
+| 11 columns |   1  |   11  | `grid-1-11` |
+| 10 columns |   1  |   10  | `grid-1-10` |
+| 9 columns  |   1  |    9  | `grid-1-9`  |
+| 8 columns  |   1  |    8  | `grid-1-8`  |
+| 7 columns  |   1  |    7  | `grid-1-7`  |
+| 6 columns  |   1  |    6  | `grid-1-6`  |
+| 5 columns  |   1  |    5  | `grid-1-5`  |
+| 4 columns  |   1  |    4  | `grid-1-4`  |
+| 3 columns  |   1  |    3  | `grid-1-3`  |
+| 2 columns  |   1  |    2  | `grid-1-2`  |
+| 1 columns  |   1  |    1  | `grid-1-1`  |
 
 
-## Large – Average Desktop Monitor
-<ol>
-<li>Max Width: 1180 px</li>
-<li>Grid: 12 columns</li>
-<li>Gutters: 20 px on either side (40 px total)</li>
-</ol> 
-Outside Margins: none in Sketch file, though in html there is a margin
+### Basic usage
 
-## Medium – Laptop
-<ol>
-<li>Max Width: 992 px ?</li>
-<li>Grid: tbd</li>
-<li>Gutters: tbd</li>
-<li>Outside Margins: tbd</li>
-</ol>
+#### HTML
 
-## Small - Tablet
-<ol>
-<li>Max Width: 768 px</li>
-<li>Grid: 8 columns</li>
-<li>Gutters: 14 px on either side (28 px total)</li>
-<li>Outside Margins: 20 px</li>
-</ol>
+`here`
 
-## (XS) – Small Mobile
-<ol>
-<li>Max Width: 375 px</li>
-<li>Grid: 4 columns</li>
-<li>Gutters: 13 px on either side (26 px total)</li>
-<li>Outside Margins: 20 px</li>
-</ol>
+#### MARKDOWN 
 
-[Most Common Browser Sizes of UHS Web Visitors](https://docs.google.com/spreadsheets/d/1R2ZBO5q0JjvIgQWCLiblNxvkON0mCK9GFaxWjQmJLKs/edit#gid=1285399807)
+`here`
+
+## Additional Resources
+

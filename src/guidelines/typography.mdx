@@ -1,0 +1,105 @@
+---
+name: Typography
+menu: Guidelines
+route: /guidelines/typography
+---
+
+# Typography
+
+## Universal Requirements
+<ul>
+<li>Use base font of 16-18pt size (18pt preferred)</li>
+<li>Set headers in Rems following a scale with 2pts or more between sizes</li>
+<li>Specify at least H1-H3 font sizes for the project</li>
+<li>Body copy color should have enough contrast to meet AA standard</li>
+<li>Prioritize maximum readability/legibility in typeface selection for our projects</li>
+</ul>
+
+## Recommendations
+
+<ul>
+<li>Set line height of body copy to be 1.6-1.65rems (using the golden ratio)</li>
+<li>Use open source or google fonts that are readily available on all devices</li>
+</ul>
+
+## Units
+<p>For the purposes of our web designs, we use Rems as the unit for font size. To understand why, it’s best to start with some basic definitions.</p>
+
+__Pixels:__ An abbreviation of “picture element” pixels are the smallest element in a digital image. The size of this element depends on the resolution of an image, and therefore is not ideal for determining consistent font size.
+
+__Points:__ A unit of measure specific to font size, originally used to measure font height. 1 point is exactly equal to the 1/72nd of an inch.
+
+__Ems:__ A unit of measure of the width of a font size, originally referencing the width of the “m” within the typeface/font size. Ems are used as a reference of the base font size, so if a font is set to be 16pt, 1 em = 16 pt.
+
+__Rems:__ “Responsive” or “root” ems reference a root html element of a document or website rather than referencing an element on a page as Ems do.
+
+<p>Rems and ems are scalable on a web pages, where pixels or points are not. If the font size is set in Ems or Rems on a website, users can adjust the size in their browser to suit their needs. Ems, however, reference the element they are applied to within a page and are subject to inheriting styles from parent elements. Rems on the other hand, reference a root element that is consistent across the entire website, which is why Rems are preferable.</p>
+
+<p>The Rem or root size of the body copy should be set within the stylesheet in points, and then a specific scale for header sizes can be defined based on ratios of Rems (3.2, 2.5, etc) for consistency throughout a website.</p>
+
+
+### Useful Resources
+[Pixel to Point Converter](http://www.endmemo.com/sconvert/pixelpoint.php)
+[Typescale Tool](https://type-scale.com/)
+
+## Size
+<p>The default body copy font size on our websites is 18pt. The smallest size we recommend is 16pt.</p>
+
+<p>Use the golden ratio for line height (1.618) of body copy. Abbreviating it to 1.6 is fine. For a base size of 18pt, 1.6rem = 28.8pt line height. For a base size of 16pt, 1.6rem = 25.6pt.</p>
+<p>Follow general guidelines about readability of text depending on the screen size, and the distance of average users to the screen.</p>
+
+<p>Text in footers or legalese can be as small as 10 pt. Please note text cannot be smaller than 9 pt in order to adhere to AA usability standards.</p>
+
+__Quick Reference for Line Height__
+<div>10pt x 1.6 = 16pt</div>
+<div>16pt x 1.6 = 25.6pt</div>
+<div>18pt x 1.6 = 28.8pt</div>
+<div>20pt x 1.6 = 32pt</div>
+<div>24pt x 1.6 = 38.4pt</div>
+
+## Color
+
+To maintain AA accessibility rating on our websites, a contrast ratio of 4:5:1 is required between foreground and background elements. Body copy color should avoid using full black on full white. Our default color of text on a white background is #000000 (black) at 90% opacity, or #747474, or #4a4a4a. 
+
+__Quick Reference__
+<div style="color:#000000;opacity:0.9;">Lorem ipsum dolor sit amet &#8594; #000000 at 90% opacity</div>
+<div style="color:#747474;">Lorem ipsum dolor sit amet &#8594; #747474</div>
+<div style="color:#4a4a4a;">Lorem ipsum dolor sit amet &#8594; #4a4a4a</div>
+
+### Useful Links
+[WebAim Contast Checker](https://webaim.org/resources/contrastchecker/)
+
+## Headers
+The default space we use between paragraphs is 20 px. For a base body copy font size of 18pt, this translates to 1.1 rem.
+
+<ul>
+<li>Specify sizes for H1-H3 within all projects within the style settings</li>
+<li>All header sizes should have at least 2pts of difference</li>
+<li>Line height for headers should be between 1.1-1.2rem</li>
+<li>Each page should include at least an H1 and an H2 tag for SEO purposes</li>
+<li>Multiple headers on a page should follow a clear hierarchy (H2 should not be used above an H1 for example). This is most important for H1 and H2 tags, as web crawlers use this content to validate and classify the web page for search results. Tags that don’t follow a clear hierarchy can negatively impact the page’s search rankings.</li>
+</ul>
+
+## Mobile
+
+## Typeface Selection
+
+### Acute Sites
+We prefer to use clean sans-serif typefaces for body copy and headers.
+
+<p>Our go-to typefaces include the following:
+<div style="font:Avenir;font-size:18pt;">Avenir (18 pt)</div>
+<div style="font:Montserrat;font-size:18pt;">Montserrat (18 pt)</div>
+<div style="font:OpenSans;font-size:18pt;">Open Sans (18 pt)</div></p>
+
+<p>Serif fonts can be used at a designer’s discretion as part of the overall design composition of a website.</p>
+
+
+### Useful Links
+[Line Spacing](https://practicaltypography.com/line-spacing.html)
+
+[Mobile Desktop Website Font Size Guidelines](https://learnui.design/blog/mobile-desktop-website-font-size-guidelines.html)
+
+[Modern Scale for Typography](https://typecast.com/blog/a-more-modern-scale-for-web-typography)
+
+[Comprehensive Guide of When to Use Ems vs. Rems](https://webdesign.tutsplus.com/tutorials/comprehensive-guide-when-to-use-em-vs-rem--cms-23984)
