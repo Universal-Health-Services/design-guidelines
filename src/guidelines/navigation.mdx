@@ -4,43 +4,156 @@ menu: Guidelines
 route: /guidelines/navigation
 ---
 # Navigation
+The header area of any website is the most valuable and familiar area to users. Therefore this space should be used for navigation elements and contact phone numbers, the most useful and valuable content on our websites.
+
+(Different for Acute/BH)
+<ul>
+<li>Very top bar area: Utility navigation</li>
+<li>Below the top bar in the header area: Main Navigation, should be larger than the utility navigation</li>
+<li>Bottom of page: Footer</li>
+<li>Elements of the Footer:</li>
+<ul>
+    <li>Legal text/copyright</li>
+	<li>Footer nav/menu</li>
+	<li>Social menu (optional)</li>
+	<li>Logo</li>
+	<li>Contact (location/phone/etc)</li>
+	</ul>
+<li>Anything within a Mega-menu or sidebar: Sub-navigation</li>
+<li>CTAs: Other navigation elements within pages</li>
+</ul>
+
+_Note_ - in the Drupal dashboard of the Acute Care sites, the footer navigation menu is referred to as “secondary navigation”.
+
 
 ## Main Navigation
 
-### Requirements
+### General Recommendations
+
+<ul>
+<li>Aim for a maximum 7 menu items</li>
+<li>Labels written in Title Case</li>
+<li>Hover state defined with more than a color change (indicator, underline, outline, etc)</li></ul>
+
 
 ### Things to Avoid
+
+<ul>
+<li>Ampersands (if size permits, if navigation is too close to logo or not fitting within breakpoints, ampersands are ok)</li>
+<li>External links (as discussed in Links section below). If an external link must be used in a main navigation, it should have an indicator (icon, etc) that it is external</li>
+<li>Labels with line breaks. If a menu item must have a line break, line height should be 1.1-1.2rems, with more space between separate items to make it clear that the item with the break belongs together</li>
+<li>Megamenu that cannot display all of the items on the screen and requires the user to scroll</li>
+</ul>
+
 
 ## Utility Navigation
 
-### Requirements
+### Recommendations
+<ul>
+<li>Consider how many items/how much space it takes up, especially in relation to the main navigation</li>
+<li>Aim for maximum of 5 items</li>
+<li>Labels written in Title Case or Sentence case</li>
+</ul>
+
 
 ### Things to Avoid
+<ul>
+<li>Icons or other visuals that add visual clutter</li>
+</ul>
+
+_Note:_ Rationale for what goes in main navigation vs. utility navigation - flesh out with details/description
+
 
 ## Footer Navigation
 
-### Requirements
-
-### Footer Disclaimer Text
-
 ### Footer Disclaimer Navigation Items
+Legal notices and copyright should be included on all sites. These may include links to the following:
+<ul>
+<li>HIPAA Statement</li>
+<li>Physician Disclaimer</li>
+<li>Privacy Policy</li>
+<li>Nondiscrimination Notice</li>
+<li>Language Assistance</li>
+<li>Site Map</li></ul>
+
+### Include these items in Footer
+<ul>
+<li>Include an address that is linked to google map address in mobile view</li>
+<li>Include phone number linked for mobile view</li>
+<li>Social media if applicable</li>
+</ul>
+
+### Acute Sites
+<ul><li>Include UHS Logo</li></ul>
+
+#### Acute Sites Footer Disclaimer Text
+
+<p>[Facility Name] is owned and operated by a subsidiary of Universal Health Services, Inc. (UHS), a King of Prussia, PA-based company, that is one of the largest healthcare management companies in the nation.</p>
+<p>The information on this website is provided as general health guidelines and may not be applicable to your particular health condition. Your individual health status and any required medical treatments can only be properly addressed by a professional healthcare provider of your choice. Remember: There is no adequate substitution for a personal consultation with your physician. Neither [Facility Name], or any of their affiliates, nor any contributors shall have any liability for the content or any errors or omissions in the information provided by this website.</p>         
+<p>The information, content and artwork provided by this website is intended for non-commercial use by the reader. The reader is permitted to make one copy of the information displayed for his/her own non-commercial use. The making of additional copies is prohibited.</p>
+<p>© [Year] [Facility Name]. All rights reserved.</p>
+
 
 ## Sidebar Navigation
 
 ### Requirements
+<ul>
+<li>Line height should be 1.2rem or less to make it clear what items are separate or have line breaks</li>
+<li>Labels written in Title Case</li>
+<li>Provide an easy way to get back to the main landing page for that section</li>
+</ul>
+
 
 ## Mobile Navigation
+For mobile navigation, the goal is to eliminate clutter and provide clear options that are easy for users to click on with fingers.
 
 ### Requirements
+
+<ul>
+<li>Hamburger menus should include the label “Menu”</li>
+<li>For the close action to go back to the regular site view (in the case of drawer or overlay navigation), use a button with the label “Close”</li>
+<li>Tapping on the search bar should bring up the native keyboard with “Go” button, so no “Search” or “Enter” button is needed in the design (to save space)</li>
+<li>Hiding the logo in the mobile navigation is ok to save space</li>
+<li>Tapping on a menu item should take you to that page (not the submenu as it does now in AC sites)</li>
+<li>Color consistency should be maintained for parent and child items, as well as active pages</li>
+</ul>
+
 
 ### Recommendations
+<ul>
+<li>Use a drawer or full-page design</li>
+<li>Place the search bar in top bar area of the mobile menu, and utility navigation at the bottom</li>
+<li>Within a child page or section, rather than using the label “Back” to view the parent item, label the button with the name of the specific parent page or section.</li>
+</ul>
 
-## Use of Accordions in Sidebar/Mobile Navigation (*specific to Acute sites)
+	sample code needed???
+
+## Use of Accordions in Mobile Navigation 
+(*specific to Acute sites)
+
+<ul>
+<li>The active page should have a defined style that is different than the rest of the menu items</li>
+<li>All child items should be expanded from the active page by default</li>
+<li>If there’s an action a user must take to change the element (to expand it for example), then it should be clear that the action is possible, and where the active area is to take initiate the action</li>
+<li>If Accordion sections are links, that should be clearly indicated</li>
+</ul>
 
 ## CTA blocks
+Calls-to-Action, or CTAs are used widely throughout our sites. They are usually composed of a header and a button, sometimes with additional text and a colored or photo background.
 
 ### Requirements
+<ul>
+<li>Use consistent colors to match overall site theme</li>
+<li>If multiple styles of CTA blocks are an option, make sure there is a clear hierarchy for when they are used</li>
+<li>Make the text in the header, body and button as concise as possible</li>
+</ul>
 
 ## Search bar
+Search bars should be included on every one of our sites, placed prominently in the header area, usually in the utility navigation.
 
 ### Recommendations	
+<ul>
+<li>Provide an easy exit from the search function</li>
+<li>If using a hidden search bar, include a functionality that reveals the bar when the search icon is clicked, or appears in a drawer under the utility navigation</li>
+<li>Consider not hiding the search bar at all</li>
+</ul>
