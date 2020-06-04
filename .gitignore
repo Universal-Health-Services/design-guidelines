@@ -106,4 +106,4 @@ yarn.lock
 package-lock.json
 
 # local development
-.docz/
+.docz/*
