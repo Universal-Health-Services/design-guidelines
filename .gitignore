@@ -104,3 +104,6 @@ public/
 # lock files
 yarn.lock
 package-lock.json
+
+# local development files
+.docz/*
