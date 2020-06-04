@@ -105,7 +105,6 @@ public/
 yarn.lock
 package-lock.json
 
-# Local Development
+# local development
 .docz/app/db.json
-.docz/app
 .DS_Store
