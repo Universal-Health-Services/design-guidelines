@@ -6,36 +6,75 @@ route: /guidelines/grid-system
 
 # Grid System
 
-Supporting mobile first design standards and following [media breakpoint](/components/media-breakpoints "Design Standards, Media Breakpoints") rules.
+(Still being determined)
 
-## Basic usage
+Supporting mobile first design standards and responsive layouts following [media breakpoints](/guidelines/media-breakpoints "Design Standards, Media Breakpoints").
 
-### HTML
+## Grid Container Classes:
+
+Class naming convertions are `grid-` + `container-` + `container orientation`. There are two possible orientations, **Columns** or **Rows**.
+
+`grid-container-col` contain elements that stack in a **vertical column**.
+
+`grid-container-row` contain elements that are lined-up in a **horizontal row**.
+
+A html `<div>` with a class of `grid-container-row` and `grid-container_fixed-width` will give you a container that is centered with in the browser window as defined
+by media [media breakpoint gutter](/guidelines/media-breakpoints#gutter "Design Standards, Media Breakpoint Gutters") values.
+
+### Basic usage
+
+#### HTML
+
+```
+<div class="main">
+  <div class="grid-container-row grid-container_fixed-width">
+   <div class="grid-1-3">column 1 of 3</div>
+   <div class="grid-1-3">column 2 of 3</div>
+   <div class="grid-1-3">column 3 of 3</div>
+  </div>
+</div>
+```
+
+#### MARKDOWN 
 
 `here`
 
-### MARKDOWN 
+## Inner Grid Classes
+
+Responsive grid widths need to be nested within a container class to work properly. Specifically a `grid-container-row` since the following
+grid classes define horizonal widths as percetages of a total. As the total width of the grid container shrinks, inner grid columns begin to stake.
+A 12 column grid will shift to a 8 column grid, halving from there down to 2 total columns. This responsive process is defined by
+[media breakpoints](/guidelines/media-breakpoints "Design Standards, Media Breakpoints").
+
+Class naming convertions are `grid-` + `unit-` + `of total units`.
+
+The following Grid Column Widths are supported:
+
+| Grid       | Unit | Total | Class       |
+| -----------| ---- | ----- | ----------- |
+| 12 columns |   1  |   12  | `grid-1-12` |
+| 11 columns |   1  |   11  | `grid-1-11` |
+| 10 columns |   1  |   10  | `grid-1-10` |
+| 9 columns  |   1  |    9  | `grid-1-9`  |
+| 8 columns  |   1  |    8  | `grid-1-8`  |
+| 7 columns  |   1  |    7  | `grid-1-7`  |
+| 6 columns  |   1  |    6  | `grid-1-6`  |
+| 5 columns  |   1  |    5  | `grid-1-5`  |
+| 4 columns  |   1  |    4  | `grid-1-4`  |
+| 3 columns  |   1  |    3  | `grid-1-3`  |
+| 2 columns  |   1  |    2  | `grid-1-2`  |
+| 1 columns  |   1  |    1  | `grid-1-1`  |
+
+
+### Basic usage
+
+#### HTML
 
 `here`
 
-## Properties
+#### MARKDOWN 
 
-**(XL)** – Desktop
+`here`
 
-12 column grid with a Main Content container with a maximum width of 1180 pixels. 40px gutter, 62px grid column, no gutter on outside
+## Additional Resources
 
-**(LG)** – Small Desktop or Large / Horizontal Orientation Tablet 
-
-12 column grid with a Main Content container with a maximum width of 1180 pixels
-
-**(MD)** – Vertical Orientation Tablet or Horizontal Orientation / Large Mobile 
-
-8 column grid with a Main Content container with a maximum width of 960 pixels, 40px? 30? 64px, 26px inner padding, gutter on outside of 20px grid column
-
-**(SM)** – Vertical Orientation Mobile or Horizontal Orientation Small Mobile
-
-4 column grid with a Main Content container with a minimum width of 376 pixels, TBD
-
-**(XS)** – Vertical Orientation Small Mobile
-
-2 column grid with a Main Content container with a maximum width of 375 pixels, TBD

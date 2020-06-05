@@ -8,50 +8,98 @@ route: /guidelines/icons-images
 
 ## Icons
 
-###  Basic usage
+<p>Icons can be useful to help users recognize navigation items and familiar actions or elements they may have seen on other websites. For other situations, icons should be used only when absolutely necessary. When icons are used, they should always be accompanied by a text label nearby.</p>
 
-#### HTML
-
-`here`
-
-#### MARKDOWN
-
-`here`
+<p>Navigation icons are one use case that definitely helps to orient users. Icons that are widely used in other websites should be used for similar items or actions on our websites, or not used at all. Good icons are flat and match the overall style of the rest of the site in terms of line weight, colors, and how detailed or simple they are. For sites with multiple icons, all icons used should appear to be part of a family.</p>
 
 ### Requirements
+<ul>
+<li>Always accompany icons with a text label in the html tag for screenreaders</li>
+<li>Icons that have a familiar or universal meaning should be used for similar purposes if deployed on our sites (for example: (i) indicates a tooltip/more information)</li>
+<li>Match the style of the site in terms of line weight, color, and refinement</li>
+</ul>
+
+### Useful Links
+
+[Font Awesome: Accessibility](https://fontawesome.com/v4.7.0/accessibility/)
+
+[Text Link Practices for Screen Readers](https://www.deque.com/blog/text-links-practices-screen-readers/)
+
+
 
 ## Images
 
-###  Basic usage
-
-#### HTML
-
-`here`
-
-#### MARKDOWN 
-
-`here`
-
-### Requirements
 
 ### Selection of Stock Images
+<p>The photos and images used on our sites should be relatable to a wide audience, relevant to the local community of the facility, display good health outcomes, and be as accurate as possible.</p>
+ 
+<p> **Relatable:** Images should show people in normal circumstances. Images that show close-ups of organs, or futuristic renderings of processes can give users the wrong impression about what is involved in a service line or procedure. Our visual style is meant to be approachable, human, clean and bright, not futuristic or neon.</p>
+
+<p> **Relevant to the community/audience:** In selecting images, we need to keep the local audience in mind, as well as the audience of the particular service line or event. Photos of fall leaves should not be used for facilities in the south, which don’t have that kind of foliage. Similarly, for our hospitals located in the Las Vegas area, don’t use images that show people at the beach. For a senior audience, don’t use images with only young people. Whenever possible, select images that reflect the local demographics of the area around a facility.</p>
+
+<p>On another note, be thoughtful about using pictures of the desert, or the beach, or cliffs for behavioral health audience, as these areas sometimes promote suicidal ideation.</p>
+
+<p>**Display good health outcomes:** Images used to promote a particular type of injury should show the positive end result of a patient who uses our services. We never want to show patients in pain, any blood or internal organs, or sick children. Images can have lasting resonance with viewers long after they forget the accompanying text, which is why we want to show happy, healthy patients as much as possible. For example, on an orthopedic-related page, we don’t show someone with a broken leg, we show them running or doing a fitness-related activity with a healthy leg. For health conditions that are hard to see (for example, stroke, or gastro issues) think about what a positive outcome for someone would be after experiencing that ailment. For a stroke this could be reading or being active. For gastro issues this could be sharing a healthy meal with family.</p>
 
 ### Hard-to-see medical conditions and potential photo subjects
+<div>Neuro/Stroke - Reading</div>
+<div>Gastro - Sharing a healthy meal with family</div>
+<div>Orthopedic - Running/walking for health</div>
+<div>Cardio/Heart - Working out</div>
+<div>Cancer - Enjoying time with family</div>
+
+Sometimes the use of more futuristic images can’t be avoided. If no other options are available, it’s ok to use them sparingly.
+
 
 ### Cropping Images
 
+When cropping images for use on the web, our most useful advice is to not settle for bad cropping. We spend a lot of time cropping and checking images in multiple page widths and views, to make sure the image looks good in all cases. Sometimes there isn’t a shortcut to uploading the photo to see how it works on a page or layout. If it doesn’t work, if the subject’s head is covered by a menu overlay, their line of vision looks odd, or there’s a distracting element in the photo poking out of the subject’s head, go back and re-adjust in Photoshop. Be mindful of not cropping out the critical part of an image in an effort to make it fit. Also be aware of how focus area of an image for the mobile view changes the visible area. When in doubt, test it on the page and readjust as needed.
+
 ### Image alignment
+(Acute Sites)
+
+On the acute care sites, images should be left-aligned, or adjusted to fit within the full-width span of the page.
 
 ### Profile images
+(Acute Sites)
+
+Profile images (aka headshots) of doctors, patients, or other professionals should be cropped to match the dimensions of other similar profile images on a site (i.e. if other profile images are square, new ones should be cropped to be square and the same dimensions. Profile images placed in-line within a block of text should have padding of 12-15px (or use the grid as your guide). Our preference is for profile images to be right-aligned with text.
 
 ### In-line images
 
+Images included within a block of text (usually of a patient or illustrating more about the text) should be set as a block element to expand to fill the width in mobile, with text not wrapping in mobile views. Padding of 12-15px should be applied.
+
 ### App mockup images
+
+If an app mockup image needs to be added to a page, which includes a background pattern, the background should be removed or cropped so that only the mockup is visible. Be sure these call-out boxes with images are designed to be responsive and will scale or stack in mobile views.
 
 ### Awards Badges
 
+Many of our hospitals want to display a variety of awards badges. Our preference is to treat them similarly to profile images, so that they are added inline within blocks of text and right-aligned. The badges should be sized so that the text is readable, but no larger. Many of these badges have guidelines about sizes, which can be consulted if available.
+If a badge must be included on a hero image, it should follow the respective guidelines if available, otherwise they should be sized so that the text is readable, but no larger. 
+
+Use awards badges with discretion as over-using them can contribute to ad-blindness or banner noise.
+
+
 ### Video
 
-### Recommendations
+When including a video on a page our preference is to embed it so that users can watch without leaving the page. If the video is hosted on Youtube or another platform, the designer/developer should make sure suggested videos don’t appear on top of the video once it’s played.
+
+To prevent black bars from appearing above or below the video, specify within the embedded code either the width or the height of the window size, but not both. Then the video can expand into the space as needed.
+
+If a video cannot be embedded, the next best option is to offer it as a modal or pop-out window, where the entire screen gets a dark overlay, and the video plays in a larger area of the screen.
+If neither of these methods are available, the alternate method is to create a cover slide with the video content and a generic play button, embed that in the page, and link it to the video on an external page or platform.
+
+
+#### Recommendations
+<ul>
+<li>Specify the height or width only, of the iframe to ensure black bars don’t appear around the video, but not both</li>
+<li>Prevent recommended videos from appearing or playing after video is played</li>
+<li>If a video can’t be embedded, create a title slide with a play button, featuring a nice still frame from the video that is linked to a lightbox or external site where the video can be played</li>
+</ul>
+
+	<‘&rel=0’ >
 
 ### Maps
+
+The visual style for Google Maps is our default for all maps, using a red location marker, which is also Google’s default. If we have to create a custom map, designers should use Google Maps’ style. It’s not necessary to match a map’s location marker to the site’s branding. 
