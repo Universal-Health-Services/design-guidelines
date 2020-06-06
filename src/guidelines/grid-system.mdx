@@ -6,55 +6,52 @@ route: /guidelines/grid-system
 
 # Grid System
 
-(Still being determined)
+The grid system is made of *container* classes, defining rows or columns, and nested *width* classes. The *grid system* 
+supports mobile first design standards and responsive layouts following [*media breakpoints*](/guidelines/media-breakpoints 
+"Design Standards, Media Breakpoints"). *Media breakpoints* define the logic for which a layout adapts to specific screen sizes.
 
-Supporting mobile first design standards and responsive layouts following [media breakpoints](/guidelines/media-breakpoints "Design Standards, Media Breakpoints").
+## Properties
+---
 
-## Grid Container Classes:
+All *grid system* classes start with `grid-`.
 
-Class naming convertions are `grid-` + `container-` + `container orientation`. There are two possible orientations, **Columns** or **Rows**.
+### *Container* Classes
 
-`grid-container-col` contain elements that stack in a **vertical column**.
+Grid system *container* classes wrap or contain smaller units of the grid system. There can be 
+containers within containers, containers wrapping columns of a specific size or containers that 
+only have simple content elements such as a paragraph, `<p>I am a paragraphy</p>`. *Container* 
+classes are powerful and can be confussing. To better understand what a container does look at 
+the way one is named.
 
-`grid-container-row` contain elements that are lined-up in a **horizontal row**.
+#### Naming Conventions 
 
-A html `<div>` with a class of `grid-container-row` and `grid-container_fixed-width` will give you a container that is centered with in the browser window as defined
-by media [media breakpoint gutter](/guidelines/media-breakpoints#gutter "Design Standards, Media Breakpoint Gutters") values.
+*Container* classes are named `grid-` + `container-` + `container orientation`. There are two possible 
+orientations, *columns* `col` or *rows* `row`. The class `grid-container-col` contain elements that stack in 
+a **vertical column**. A `grid-container-row` class contain elements that are lined-up in a **horizontal row**.
 
-### Basic usage
+#### *Fixed Width* containers
 
-#### HTML
+By default any container class does not have a defined width, that is what a [*width* class](#width-classes "jump to: Width Classes") is for. 
+Defining a container as *fixed width* will create a content container that will remain cantered within a page while following responsive 
+grid scaling rules.
 
-```
-<div class="main">
-  <div class="grid-container-row grid-container_fixed-width">
-   <div class="grid-1-3">column 1 of 3</div>
-   <div class="grid-1-3">column 2 of 3</div>
-   <div class="grid-1-3">column 3 of 3</div>
-  </div>
-</div>
-```
+A html `<div>` with a class of `grid-container-row` and `grid-container_fixed-width` will give you 
+a container that is centered with in the browser window as defined by  media [media breakpoint 
+gutter](/guidelines/media-breakpoints#gutter "Design Standards, Media Breakpoint Gutters") values.
 
-#### preview
+### *Width* Classes
 
-> html preview here
+Responsive grid *widths* need to be nested within a *container* class to work properly. Specifically a 
+`grid-container-row` since the following grid classes define horizonal widths as percetages of the 
+total browser window width. As the total width of the grid container shrinks, inner grid columns scale and stack 
+appropirately. A 12 column grid will shift to a 8 column grid, then halving until the grid only contains 2 total 
+columns. This responsive process is defined by [media breakpoints](/guidelines/media-breakpoints 
+"Design Standards, Media Breakpoints").
 
-### MARKDOWN 
+#### Naming Conventions
 
-`MD code here`
+`grid-` + `unit-` + `of total units`.
 
-#### preview
-
-> md preview here
-
-## Inner Grid Classes
-
-Responsive grid widths need to be nested within a container class to work properly. Specifically a `grid-container-row` since the following
-grid classes define horizonal widths as percetages of a total. As the total width of the grid container shrinks, inner grid columns begin to stake.
-A 12 column grid will shift to a 8 column grid, halving from there down to 2 total columns. This responsive process is defined by
-[media breakpoints](/guidelines/media-breakpoints "Design Standards, Media Breakpoints").
-
-Class naming convertions are `grid-` + `unit-` + `of total units`.
 
 The following Grid Column Widths are supported:
 
@@ -73,39 +70,61 @@ The following Grid Column Widths are supported:
 | 2 columns  |   1  |    2  | `grid-1-2`  |
 | 1 columns  |   1  |    1  | `grid-1-1`  |
 
-### Basic usage
-
-#### HTML
-
-`HTML code here`
-
-##### preview
-
-> HTML preview here
-
-#### MARKDOWN 
-
-`MD code here`
-
-##### preview
-
-> md preview here
-
-## Properties
-
-Properties a.k.a. Requirements here.
-
 ## Best Practices
+---
 
-Best practices a.k.a. Recommendations here.
+Best practices here.
+
+### *Grid Container* Classes
+
+### Inner Grid Classes
 
 ### Things to Avoid
 
-Things to avoid here.
+Things to avoid here, or delete.
+
+## Basic Usage
+---
+
+### Page layouts
+
+#### Full Width
+
+##### HTML
+here
+
+##### MARKDOWN
+here
+
+#### Fixed Width
+
+##### HTML
+
+```
+<div class="main">
+  <div class="grid-container-row grid-container_fixed-width">
+   <div class="grid-1-3">column 1 of 3</div>
+   <div class="grid-1-3">column 2 of 3</div>
+   <div class="grid-1-3">column 3 of 3</div>
+  </div>
+</div>
+```
+
+###### preview
+
+> html preview here
+
+##### MARKDOWN 
+
+`MD code here`
+
+###### preview
+
+> md preview here
 
 ## Additional Resources
 ---
 
-[Further Reading](# "further reading alt") materials synopsis.
+[Further Reading](https://www.uhsinc.com "further reading alt") materials synopsis.
 
-[More Reading](# "more reading alt") synopsis.
+[More Reading](https://www.uhsinc.com "more reading alt") on the subject, a synopsis.

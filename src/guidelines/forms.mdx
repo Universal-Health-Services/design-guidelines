@@ -9,66 +9,47 @@ route: /guidelines/forms
 Forms are a major feature of many of our web pages, and a major opportunity to provide a smooth user 
 experience, as opposed to one that is confusing or unpleasant. Our main goal is to layout our forms 
 in a way that is intuitive for users, which saves them time and eliminates confusion. Making sure 
-our forms behave consistently requires modifying some settings which are simple, and a few that are more advanced.
-
-## Basic usage
-
-### HTML
-
-`<input type="text" name="usrname" id="usrname" aria-required="true"/>`
-
-#### Preview
-
-> <input type="text" name="usrname" id="usrname" aria-required="true"/>
-
-### MARKDOWN 
-
-`md here`
-
-#### Preview
-
-> md here
+our forms behave consistently requires modifying some settings which are simple, and a few that are 
+more advanced.
 
 ## Properties
+---
 
 * Vertical form stacking: each field is on its own line, there are no fields side by side
-* Minimum field height of 44 px
+* Minimum field height of `44px`
 * Form fields should all be same width
 * Drop-down fields, radio buttons and check boxes should never have a default selected
 * If date/time picker is used, include a calendar icon
 * Radio buttons should be used when only one item may be selected
 * Checkboxes should be used when more than one item may be selected
 * Field labels should always be on top of the field (not below or to the side)
-* Button label should describe the button's action, as in “Send Form” not “Submit”
+* Button label should describe the button's action, as in "Send Form" not "Submit"
 * Button styling should be consistent with the rest of the website's design
-* Visual focus or clicked state should be specified for fields (for example, when you put the cursor in the field the background color or border color changes slightly)
+* Visual focus or clicked state should be specified for fields (for example, when you put 
+the cursor in the field the background color or border color changes slightly)
 * Don't use reset/cancel buttons as they are too easily confused for Submit/Send buttons
 * Buttons and captchas should scale appropriately on mobile views
 
-## Best Practices
-
-* Use a background color to the form to provide contrast between fields and the page
-* Field labels should be the same color as paragraph text or slightly darker
-* Space between fields should be 30px
-* Using the `*` symbol is not adequate to indicate a required field. The word “Required” should be included for screen readers - can be added as a label only visible for screen readers
-
 ### Additional HTML/CSS Specs
 
-Specify the type of input for each field, such as “numerical” or “text” or “tel” so that the correct keyboard is available for mobile users when filling in the fields.
+Specify the type of input for each field, such as "numerical" or "text" or "tel" so that the 
+correct keyboard is available for mobile users when filling in the fields.
 
-Rather than add margins/padding on the top and bottom of form fields, it’s easier to add a margin only to the bottom of fields so that there’s no extra space at the top, and specify for the bottom margin to be 0 on the last field element in the form.
+Rather than add margins/padding on the top and bottom of form fields, it’s easier to add a 
+margin only to the bottom of fields so that there's no extra space at the top, and specify for 
+the bottom margin to be 0 on the last field element in the form.
 
-#### Examples
+#### Quick Example
 
 ##### HTML
 
-`<input type="tel">`
+`<input type="tel"/>`
 
 ###### Preview
 
-> <input type="tel">
+> <input type="tel"/>
 
-#### MARKDOWN 
+#### MARKDOWN
 
 `md here`
 
@@ -78,28 +59,45 @@ Rather than add margins/padding on the top and bottom of form fields, it’s eas
 
 #### Placeholder Text
 
-Placeholder text is text added to fields that describe what users should type there, or provide an example. It’s usually styled in a lighter color than body copy to indicate that it’s temporary, and it should disappear when users start typing.
+Placeholder text is text added to fields that describe what users should type there, or provide 
+an example. It's usually styled in a lighter color than body copy to indicate that it's temporary, 
+and it should disappear when users start typing.
 
-Use approachable and concise placeholder text as a prompt. It’s ideal if this text can move above the field once the user starts typing in the field to continue to provide guidance after the user has started filling in the field.
+Use approachable and concise placeholder text as a prompt. It's ideal if this text can move above 
+the field once the user starts typing in the field to continue to provide guidance after the user 
+has started filling in the field.
 
 #### Field masking
 
-Field masking is a way of formatting the characters a user enters, so that any special characters for phone, date, or other formats are added automatically. Rather than requiring a user to type in the “/” character for a date field, if the field was masked properly, all the user would have to do is type in the numbers corresponding to the date they want to enter, and the / would appear automatically. There are several ways to mask fields, and they depend on what tool the form is built in. Gravity forms and other popular form providers offer the option to create custom masks for fields.
+Field masking is a way of formatting the characters a user enters, so that any special characters 
+for phone, date, or other formats are added automatically. Rather than requiring a user to type 
+in the "/" character for a date field, if the field was masked properly, all the user would have 
+to do is type in the numbers corresponding to the date they want to enter, and the / would appear 
+automatically. There are several ways to mask fields, and they depend on what tool the form is built 
+in. Gravity forms and other popular form providers offer the option to create custom masks for fields.
 
-* Calendars - pop-up calendar is ideal, or mask that indicates date/month/year in DD/MM/YYYY format
+* Calendars - pop-up calendar is ideal, or mask that indicates date/month/year in `DD/MM/YYYY` format
 * Email field - bring up keyboard with `@` symbol, or @gmail.com options
-* Phone number - have dashes in appropriate spots
+* Phone number - have dashes in appropriate spots, more here.
 
 #### Form Validation and Error messages
 
-Error messages need clear explanation of what is wrong with the input text. A red X is not adequate, users need more specific information to know what to correct.
+Error messages need clear explanation of what is wrong with the input text. A red **X** is not adequate, 
+users need more specific information to know what to correct.
 
-Error messages should appear next to fields, either above or below the field, as that is where users are looking when they are typing. This placement is much preferable to error text placed at the top or bottom of the form, which is sometimes called a validation summary. Tooltips should not be used for error messages, as most users only think of them as supplemental, not critical information. Tooltips can be used to provide supplemental information where it makes sense.
+Error messages should appear next to fields, either above or below the field, as that is where users 
+are looking when they are typing. This placement is much preferable to error text placed at the top or 
+bottom of the form, which is sometimes called a validation summary. Tooltips should not be used for 
+error messages, as most users only think of them as supplemental, not critical information. Tooltips 
+can be used to provide supplemental information where it makes sense.
 
-Consider using inline validation for your forms, or an indicator of valid input for a form field (green checkmark, for example). If you do decide to use inline validation, specify color states for normal, error, and validated fields within your design.
-If you set a field to indicate a validated state, make sure it doesn’t check the field until the user is finished typing.
+Consider using inline validation for your forms, or an indicator of valid input for a form field (green 
+checkmark, for example). If you do decide to use inline validation, specify color states for normal, 
+error, and validated fields within your design. If you set a field to indicate a validated state, make 
+sure it doesn't check the field until the user is finished typing.
 
-Further validation can be added in some cases to email fields, to filter out obvious fake email addresses (ones that use test@test.com or bob@email.com).
+Further validation can be added in some cases to email fields, to filter out obvious fake email 
+addresses (ones that use test@test.com or bob@email.com).
 
 #### Testing for Accessibility
 
@@ -107,25 +105,55 @@ Be sure to specify and test out tab-key navigation for forms. See link below for
 
 #### Multi-Step Forms
 
-For multi-step or multi-page forms, the button should move from left-justified to the bottom right.
-
-Ideally the form would include a progress bar or indicator of how many steps are completed and how many are left.
-
-Be sure to make it easy for users to go back and make edits if needed with a prominent “Back” button.
-
-Consider using a summary of the information the user added to the form before sending
+* For multi-step or multi-page forms, the button should move from left-justified to the bottom right.
+* Ideally the form would include a progress bar or indicator of how many steps are completed and how many are left.
+* Be sure to make it easy for users to go back and make edits if needed with a prominent "Back" button.
+* Consider using a summary of the information the user added to the form before sending
 
 #### Confirmation Messages
 
-Confirmation messages are good to build user confidence in the transaction. They appear after the form has been sent and should be as descriptive as possible. If details such as expected turn-around time for a reply, or next steps can be included, a confirmation message is where to display that. 
+Confirmation messages are good to build user confidence in the transaction. They appear after the form has 
+been sent and should be as descriptive as possible. If details such as expected turn-around time for a reply, 
+or next steps can be included, a confirmation message is where to display that. 
 
 #### Registration Forms
 
-Have brief description of benefits you can get from signing up, as in, what users will get from filling out the form in the space above the first field.
+Have brief description of benefits you can get from signing up, as in, what users will get from filling out 
+the form in the space above the first field.
 
 #### Mobile
 
-All forms should be tested on mobile, with particular attention to the field height and keyboard options described above.
+All forms should be tested on mobile, with particular attention to the field height and keyboard options 
+described above.
+
+## Best Practices
+---
+
+* Use a background color to the form to provide contrast between fields and the page
+* Field labels should be the same color as paragraph text or slightly darker
+* Space between fields should be 30px
+* Using the `*` symbol is not adequate to indicate a required field. 
+The word "Required" should be included for screen readers - can be added as a label 
+only visible for screen readers
+
+## Basic Usage
+---
+
+### HTML
+
+`<input type="text" name="usrname" id="usrname" />`
+
+#### Preview
+
+> <input type="text" name="usrname" id="usrname" />
+
+### MARKDOWN 
+
+`md here`
+
+#### Preview
+
+> md here
 
 ## Additional Resources
 ---
