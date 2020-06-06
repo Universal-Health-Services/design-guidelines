@@ -9,7 +9,58 @@ route: /guidelines/buttons
 For our designs, we follow the adage "buttons should look like buttons". 
 This means that buttons should look and behave similarly to buttons our users are familiar with from other websites.
 
-## Basic usage
+## Properties
+---
+
+* Labels written in [Title Case](https://definition.com "Reference Link: here")
+or [Sentence case](https://definition.com "Reference Link: here")
+* Minimum height of `50px` [Android Standard](https://support.google.com/accessibility/android/answer/7101858?hl=en 
+"Reference Link: stardard height of a button as defined by Android")
+* Font size of `16pt` or larger
+* Button color should be consistent throughout a website and match link color
+* Labeling - should describe the action a user is taking or what the button does
+    * "Send Form" rather than "Submit"
+    * "Send Email" rather than "Contact Us"
+
+## Best Practices
+---
+
+### Use of Buttons vs. Text Links
+
+Buttons should be used when there is a clear, tangible action for the user to take.
+If there are multiple possible actions the user could take, consider the goal of a 
+web page, and the primary action you want a user to take on the page. Of course 
+sometimes a website’s structure includes pages where there is no action - a page 
+may just be informational. If there is a clear action, use a button to draw attention 
+to it. If other links are relevant to the page content, include them as buttons or text 
+links (depending on the design). Style and place these secondary buttons or links within 
+the layout to indicate that they are less important (as in, place them lower on the 
+page). Links should be used within body copy, not buttons. If you have multiple buttons, 
+place them where users expect (for example, in the case of pagination place buttons to 
+advance or move back in bottom left and right corners).
+
+* Use a slight border radius (2-3 degrees)
+* Underline the text label as hover state (with discretion)
+* Gradients may be applied depending on the overall design (hover or active state 
+should alter the gradient to look like it's 3D)
+* Hover and Active/Clicked states should be defined. Hover state should be slight change 
+of color, and underline, for accessibility
+* If more than one button style is used within one site, there should be a hierarchy 
+to the styles, as in a primary, secondary, and 
+tertiary style (if needed). The hierarchy should then be used intentionally for links 
+that correspond to that hierarchy
+* Place buttons where users expect to find them
+* Consider the space around buttons - more space can help emphasize the possible action
+
+### Things to Avoid
+
+* Drop-shadows (outdated)
+* Arrows in button labels (the visual design of buttons indicate a separate destination)
+* Buttons that break on mobile view (buttons should not be wider than `350px`)
+* Use of ads/graphics in buttons (anything that looks like an ad should be avoided)
+
+## Basic Usage
+---
 
 ### HTML
 
@@ -30,44 +81,6 @@ To create buttons in Markdown you have to embed HTML like so.
 #### Preview
 
 > <button class="button-default large">Big Fat Button</button>
-
-## Properties
-
-Properties a.k.a. Requirements here.
-
-* Labels written in [Title Case](https://description.com "reference link") or [Sentence case](https://description.com "reference link")
-* Minimum height of `50px` (Android standard)
-* Font size of `16pt` or larger
-* Button color should be consistent throughout a website and match link color
-* Labeling - should describe the action a user is taking or what the button does
-    * "Send Form" rather than "Submit"
-    * "Send Email" rather than "Contact Us"
-
-## Best Practices
-
-Best practices a.k.a. Recommendations here.
-
-* Use a slight border radius (2-3 degrees)
-* Underline the text label as hover state (with discretion)
-* Gradients may be applied depending on the overall design (hover or active state should alter the gradient to look like it’s 3D)
-* Hover and Active/Clicked states should be defined. Hover state should be slight change of color, and underline, for accessibility
-* If more than one button style is used within one site, there should be a hierarchy to the styles, as in a primary, secondary, and 
-tertiary style (if needed). The hierarchy should then be used intentionally for links that correspond to that hierarchy
-* Place buttons where users expect to find them
-* Consider the space around buttons - more space can help emphasize the possible action
-
-### Use of Buttons vs. Text Links
-
-Buttons should be used when there is a clear, tangible action for the user to take.
-If there are multiple possible actions the user could take, consider the goal of a web page, and the primary action you want a user to 
-take on the page. Of course sometimes a website’s structure includes pages where there is no action - a page may just be informational. If there is a clear action, use a button to draw attention to it. If other links are relevant to the page content, include them as buttons or text links (depending on the design). Style and place these secondary buttons or links within the layout to indicate that they are less important (as in, place them lower on the page). Links should be used within body copy, not buttons. If you have multiple buttons, place them where users expect (for example, in the case of pagination place buttons to advance or move back in bottom left and right corners).
-
-### Things to Avoid
-
-* Drop-shadows (outdated)
-* Arrows in button labels (the visual design of buttons indicate a separate destination)
-* Buttons that break on mobile view (buttons should not be wider than `350px`)
-* Use of ads/graphics in buttons (anything that looks like an ad should be avoided)
 
 ## Additional Resources
 ---
